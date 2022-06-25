@@ -21,6 +21,7 @@ curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);//return respose instead of outputt
 //stores json response to variable
 $resp = curl_exec($ch);
 
+//error check
 if($e = curl_error($ch)){
     echo $e;
 }else{
