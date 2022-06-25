@@ -9,7 +9,7 @@ $url = "https://reqres.in/api/users?page=2";
 
 //set url
 curl_setopt($ch, CURLOPT_URL, $url);
-//return respose instead of output
+//return respose instead of outputting
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 //stores json response to variable
